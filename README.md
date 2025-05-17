@@ -22,9 +22,9 @@
 - Singleton Pattern: VendingMachine is implemented as a singleton.
 
 #### Design Patterns Used
-- State Pattern: For managing machine states and transitions.
-- Singleton Pattern: For ensuring a single instance of the VendingMachine.
-- To encapsulate algorithms or processes that can vary independently, like different payment processing methods or product selection strategies.
+- **State Pattern:** For managing machine states and transitions.
+- **Singleton Pattern:** For ensuring a single instance of the VendingMachine.
+- **Strategy Pattern:** To encapsulate algorithms or processes that can vary independently, like different payment processing methods or product selection strategies.
 
 #### Limitations
 - Poor Change Handling in Inventory Management: There's no mention of out-of-stock handling, product reloading, or expiry tracking.
